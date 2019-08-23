@@ -127,5 +127,5 @@ table {
   border-spacing: 0;
 }
 body {
-  background: url('imgs/treebridge.jpg');
+  background-image: url('imgs/treebridge.jpg');
 }
