@@ -136,17 +136,38 @@ h4 {
 p {
   font-family: 'Rokkitt', serif;
 }
+h1 {
+  font-size: 4rem;
+  font-weight: bold;
+}
 body {
   background-image: url('/imgs/treebridge.jpg');
   background-size: 100%;
   background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
 }
 .center-info {
   background-color: #E2DED5;
   display: flex;
   flex-direction: column;
-  width: 65%;
-  height: 400px;
+  width: 50%;
+  height: 300px;
   justify-content: center;
   align-items: center;
+}
+a {
+  text-decoration: none;
+}
+a:visited {
+  color: white;
+}
+button {
+  background-color: #264D3E;
+  width: 100px;
+  height: 50px;
+}
+h1 {
+  text-align: center;
 }

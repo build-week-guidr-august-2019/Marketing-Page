@@ -2,15 +2,35 @@ body {
   background-image: url('/imgs/treebridge.jpg');
   background-size: 100%;
   background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
 }
 
 .center-info {
   background-color: @light-window;
   display: flex;
   flex-direction: column;
-  width: 65%;
-  height: 400px;
+  width: 50%;
+  height: 300px;
   justify-content: center;
   align-items: center;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+}
+
+button {
+  background-color: @buttons;
+  width:100px;
+  height: 50px;
+}
+
+h1 {
+  text-align: center;
+}
