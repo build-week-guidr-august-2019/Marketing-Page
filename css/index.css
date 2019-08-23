@@ -126,6 +126,27 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Rokkitt', serif;
+  color: #073422;
+}
+p {
+  font-family: 'Rokkitt', serif;
+}
 body {
-  background-image: url('imgs/treebridge.jpg');
+  background-image: url('/imgs/treebridge.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.center-info {
+  background-color: #E2DED5;
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
 }
