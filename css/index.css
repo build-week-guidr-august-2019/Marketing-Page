@@ -144,7 +144,7 @@ a {
   text-decoration: none;
 }
 a:visited {
-  color: white;
+  color: #eeeeee;
 }
 body {
   background-image: url('/imgs/treebridge.jpg');
@@ -180,7 +180,7 @@ main {
   display: flex;
   justify-content: space-evenly;
 }
-button {
+.buttons button {
   background-color: #264D3E;
   width: 150px;
   height: 45px;
@@ -188,6 +188,9 @@ button {
   border-color: transparent;
   color: #eeeeee;
   font-family: 'Rokkitt', serif;
+}
+.buttons button:hover {
+  cursor: pointer;
 }
 h1 {
   text-align: center;
