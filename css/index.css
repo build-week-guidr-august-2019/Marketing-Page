@@ -137,7 +137,7 @@ p {
   font-family: 'Rokkitt', serif;
 }
 h1 {
-  font-size: 4rem;
+  font-size: 2.5rem;
   font-weight: bold;
 }
 a {
@@ -163,26 +163,56 @@ nav a {
   color: #EEEEEE;
   font-size: 1.4rem;
 }
-main {
-  display: flex;
-  justify-content: center;
-  padding-top: 10%;
+footer {
+  background-color: #264D3E;
+  height: 2rem;
+  margin: 0;
 }
 .intro {
   display: flex;
   flex-direction: column;
-  width: 43%;
-  height: 350px;
   align-items: center;
+}
+.intro img {
+  width: 100%;
+  height: 100%;
+}
+.intro .intro-window {
+  background: rgba(226, 222, 213, 0.5);
+  position: absolute;
+  width: 372px;
+  height: 336px;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  margin-left: 30%;
+  margin-top: 20%;
 }
-.intro p {
+.intro .intro-window p {
   text-align: center;
+  color: #073422;
+  font-size: 2rem;
 }
-.intro hr {
-  border: 0.25px solid #073422;
-  width: 335px;
-}
-h1 {
+.intro .intro-window h1 {
   text-align: center;
+  border-bottom: 0.25px solid #073422;
+  width: 230px;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+}
+.intro .intro-window .header-button {
+  border-color: transparent;
+  background-color: #EEEEEE;
+  width: 40%;
+  height: 2.5rem;
+  font-family: 'Rokkitt', serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #073422;
+  margin-top: 10px;
+}
+.organize {
+  height: 60rem;
+  color: #EEEEEE;
 }

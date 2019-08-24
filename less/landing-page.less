@@ -6,69 +6,71 @@
 //   background-color: @feature-text;
 // }
 
-nav {
-  background-color: @guidr-green;
-  display: flex;
-  height: 4rem;
-  font-family: @main-font;
-  justify-content: space-between;
-  align-items: center;
-  .logo{
-    .nav-text();
-  }
-  a {
-    .nav-text();
-  }
-}
 
-main {
-  display: flex;
-  justify-content: center;
-  padding-top: 10%;
-}
-
-.intro{
-  //background-color: @light-window;
-  display: flex;
-  flex-direction: column;
-  width: 43%;
-  height: 350px;
-  align-items: center;
-  justify-content: center;
-  
-  p {
-    text-align: center;
-  }
-
-  hr {
-    border: .25px solid #073422;
-    width: 335px;
-    }
-
-}
-
-
-// .buttons {
-//   margin-top: 50px;
-//   width: 100%;
+// main {
 //   display: flex;
-//   justify-content: space-evenly;
-
-//   button {
-//   background-color: @guidr-green;
-//   width:150px;
-//   height: 45px;
-//   border-radius: 6px;
-//   border-color: transparent;
-//   color: #eeeeee;
-//   font-family: 'Rokkitt', serif;
-//   &:hover {
-//     cursor: pointer; 
-//     }
-//   }
+//   justify-content: center;
+//   padding-top: 10%;
 // }
 
+.intro{
+  // background-size: contain;
+  // background-repeat: initial;
+  // width: 100%;
+  // height: 61.6rem;
+  //background-image: url('/imgs/landing_bridge.jpg');
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  //justify-content: center;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .intro-window {
+    background: fade(@transp-window, 50%);
+    position: absolute;
+    width: 372px;
+    height: 336px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30%;
+    margin-top: 20%;
 
-h1 {
-  text-align: center;
+    p {
+      text-align: center;
+      color: @feature-text;
+      font-size: 2rem;
+    }
+      
+    h1 {
+      text-align: center;
+      border-bottom: .25px solid #073422;
+      width: 230px;
+      margin-bottom: 15px;
+      padding-bottom: 10px;
+    }
+    
+    .header-button {
+      border-color: transparent;
+      background-color: @light-accent;
+      width: 40%;
+      height: 2.5rem;
+      font-family: @main-font;
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: @feature-text;
+      margin-top: 10px;
+    }
+  }
 }
+
+.organize {
+  height: 60rem;
+  color: @light-accent;
+}
+
+
