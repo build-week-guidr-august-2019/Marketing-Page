@@ -158,8 +158,8 @@ main {
   justify-content: center;
   padding-top: 10%;
 }
-.center-info {
-  background-color: #E2DED5;
+.intro {
+  background-color: #EEEEEE;
   display: flex;
   flex-direction: column;
   width: 43%;
@@ -167,10 +167,10 @@ main {
   align-items: center;
   justify-content: center;
 }
-.center-info p {
+.intro p {
   text-align: center;
 }
-.center-info hr {
+.intro hr {
   border: 0.25px solid #073422;
   width: 335px;
 }
