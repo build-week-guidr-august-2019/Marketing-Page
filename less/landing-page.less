@@ -1,9 +1,24 @@
-body {
-  background-image: url('/imgs/treebridge.jpg');
-  background-size: 85%;
-  background-position-x: center;
-  background-repeat: no-repeat;
-  background-color: @feature-text;
+// body {
+//   background-image: url('/imgs/treebridge.jpg');
+//   background-size: 85%;
+//   background-position-x: center;
+//   background-repeat: no-repeat;
+//   background-color: @feature-text;
+// }
+
+nav {
+  background-color: @guidr-green;
+  display: flex;
+  height: 4rem;
+  font-family: @main-font;
+  justify-content: space-between;
+  align-items: center;
+  .logo{
+    .nav-text();
+  }
+  a {
+    .nav-text();
+  }
 }
 
 main {
@@ -13,7 +28,7 @@ main {
 }
 
 .intro{
-  background-color: @light-window;
+  //background-color: @light-window;
   display: flex;
   flex-direction: column;
   width: 43%;
@@ -33,26 +48,25 @@ main {
 }
 
 
-.buttons {
-  margin-top: 50px;
-  width: 100%;
-  display: flex;
-  justify-content: space-evenly;
+// .buttons {
+//   margin-top: 50px;
+//   width: 100%;
+//   display: flex;
+//   justify-content: space-evenly;
 
-  button {
-  background-color: @guidr-green;
-  width:150px;
-  height: 45px;
-  border-radius: 6px;
-  border-color: transparent;
-  color: #eeeeee;
-  font-family: 'Rokkitt', serif;
-  &:hover {
-    cursor: pointer; 
-    }
-  }
-}
-
+//   button {
+//   background-color: @guidr-green;
+//   width:150px;
+//   height: 45px;
+//   border-radius: 6px;
+//   border-color: transparent;
+//   color: #eeeeee;
+//   font-family: 'Rokkitt', serif;
+//   &:hover {
+//     cursor: pointer; 
+//     }
+//   }
+// }
 
 
 h1 {

@@ -142,16 +142,26 @@ h1 {
 }
 a {
   text-decoration: none;
+  font-family: 'Rokkitt', serif;
 }
 a:visited {
   color: #eeeeee;
 }
-body {
-  background-image: url('/imgs/treebridge.jpg');
-  background-size: 85%;
-  background-position-x: center;
-  background-repeat: no-repeat;
-  background-color: #073422;
+nav {
+  background-color: #264D3E;
+  display: flex;
+  height: 4rem;
+  font-family: 'Rokkitt', serif;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .logo {
+  color: #EEEEEE;
+  font-size: 1.4rem;
+}
+nav a {
+  color: #EEEEEE;
+  font-size: 1.4rem;
 }
 main {
   display: flex;
@@ -159,7 +169,6 @@ main {
   padding-top: 10%;
 }
 .intro {
-  background-color: #EEEEEE;
   display: flex;
   flex-direction: column;
   width: 43%;
@@ -173,24 +182,6 @@ main {
 .intro hr {
   border: 0.25px solid #073422;
   width: 335px;
-}
-.buttons {
-  margin-top: 50px;
-  width: 100%;
-  display: flex;
-  justify-content: space-evenly;
-}
-.buttons button {
-  background-color: #264D3E;
-  width: 150px;
-  height: 45px;
-  border-radius: 6px;
-  border-color: transparent;
-  color: #eeeeee;
-  font-family: 'Rokkitt', serif;
-}
-.buttons button:hover {
-  cursor: pointer;
 }
 h1 {
   text-align: center;
