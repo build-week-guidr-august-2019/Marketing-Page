@@ -163,10 +163,30 @@ nav a {
   color: #EEEEEE;
   font-size: 1.4rem;
 }
+nav .nav-right {
+  margin-left: 40px;
+}
+nav .nav-left {
+  margin-right: 40px;
+}
+nav .nav-button {
+  border-color: transparent;
+  background-color: #EEEEEE;
+  border-radius: 6px;
+  width: 110px;
+  height: 2rem;
+  margin-left: 15px;
+  font-family: 'Rokkitt', serif;
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: #073422;
+}
+nav .nav-button:hover {
+  cursor: pointer;
+}
 footer {
   background-color: #264D3E;
-  height: 2rem;
-  margin: 0;
+  height: 4rem;
 }
 .intro {
   display: flex;
