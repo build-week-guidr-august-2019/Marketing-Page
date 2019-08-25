@@ -1,0 +1,377 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Rokkitt', serif;
+  color: #073422;
+}
+p {
+  font-family: 'Rokkitt', serif;
+}
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+  font-family: 'Rokkitt', serif;
+}
+a:visited {
+  color: #eeeeee;
+}
+nav {
+  background-color: #264D3E;
+  display: flex;
+  height: 4rem;
+  font-family: 'Rokkitt', serif;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .logo {
+  color: #EEEEEE;
+  font-size: 1.4rem;
+}
+nav a {
+  color: #EEEEEE;
+  font-size: 1.4rem;
+}
+nav .nav-right {
+  margin-left: 40px;
+}
+nav .nav-left {
+  margin-right: 40px;
+}
+nav .nav-button {
+  border-color: transparent;
+  background-color: #EEEEEE;
+  border-radius: 6px;
+  width: 110px;
+  height: 2rem;
+  margin-left: 15px;
+  font-family: 'Rokkitt', serif;
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: #073422;
+}
+nav .nav-button:hover {
+  cursor: pointer;
+}
+footer {
+  background-color: #264D3E;
+  height: 4rem;
+  color: #EEEEEE;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.intro img {
+  width: 100%;
+  height: 100%;
+}
+.intro .intro-window {
+  background: rgba(226, 222, 213, 0.5);
+  position: absolute;
+  width: 372px;
+  height: 336px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30%;
+  margin-top: 20%;
+}
+.intro .intro-window p {
+  text-align: center;
+  color: #073422;
+  font-size: 2rem;
+}
+.intro .intro-window h1 {
+  text-align: center;
+  border-bottom: 0.25px solid #073422;
+  width: 230px;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+}
+.intro .intro-window .header-button {
+  border-color: transparent;
+  background-color: #EEEEEE;
+  width: 40%;
+  height: 2.5rem;
+  font-family: 'Rokkitt', serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #073422;
+  margin-top: 10px;
+}
+.organize {
+  height: 60rem;
+  color: #EEEEEE;
+}
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.intro img {
+  width: 100%;
+  height: 100%;
+}
+.intro .intro-window {
+  background: rgba(226, 222, 213, 0.5);
+  position: absolute;
+  width: 372px;
+  height: 336px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30%;
+  margin-top: 20%;
+}
+.intro .intro-window p {
+  text-align: center;
+  color: #073422;
+  font-size: 2rem;
+}
+.intro .intro-window h1 {
+  text-align: center;
+  border-bottom: 0.25px solid #073422;
+  width: 230px;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+}
+.mission {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+.mission img {
+  width: 100%;
+  height: 100%;
+}
+.mission .mission-box {
+  background: rgba(226, 222, 213, 0.5);
+  position: absolute;
+  width: 450px;
+  height: 336px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15%;
+  margin-top: 30%;
+}
+.mission p {
+  text-align: center;
+  color: #073422;
+  font-size: 2rem;
+}
+.mission h1 {
+  text-align: center;
+  border-bottom: 0.25px solid #073422;
+  width: 230px;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+}
+.location {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.location img {
+  width: 100%;
+  height: 100%;
+}
+.location .location-box {
+  background: rgba(226, 222, 213, 0.5);
+  position: absolute;
+  width: 450px;
+  height: 336px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30%;
+  margin-top: 20%;
+}
+.location .location-box p {
+  text-align: center;
+  color: #073422;
+  font-size: 2rem;
+}
+.location .location-box h1 {
+  text-align: center;
+  border-bottom: 0.25px solid #073422;
+  width: 230px;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+}
+.promise {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+.promise img {
+  width: 100%;
+  height: 100%;
+}
+.promise .promise-box {
+  background: rgba(226, 222, 213, 0.5);
+  position: absolute;
+  width: 450px;
+  height: 336px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15%;
+  margin-top: 30%;
+}
+.promise p {
+  text-align: center;
+  color: #073422;
+  font-size: 2rem;
+  padding: 5px;
+}
+.promise h1 {
+  text-align: center;
+  border-bottom: 0.25px solid #073422;
+  width: 230px;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+}
