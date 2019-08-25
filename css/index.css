@@ -187,12 +187,14 @@ nav .nav-button:hover {
 footer {
   background-color: #264D3E;
   height: 4rem;
+
   color: #EEEEEE;
   padding: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
+
 }
 .intro {
   display: flex;
@@ -242,6 +244,7 @@ footer {
   height: 60rem;
   color: #EEEEEE;
 }
+
 .intro {
   display: flex;
   flex-direction: column;
@@ -375,3 +378,4 @@ footer {
   margin-bottom: 15px;
   padding-bottom: 10px;
 }
+
