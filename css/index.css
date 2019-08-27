@@ -241,6 +241,7 @@ footer {
 .organize {
   width: 100%;
   background-color: #EEEEEE;
+  margin-bottom: -3px;
 }
 .organize h2 {
   font-size: 3.5rem;
@@ -249,18 +250,48 @@ footer {
   padding-bottom: 70px;
   margin-left: 10%;
   margin-right: 10%;
+  color: #073422;
 }
 .organize img {
   width: 100%;
+  margin-bottom: 0px;
 }
 .document {
+  display: flex;
   width: 100%;
-  height: 60rem;
+  height: 35rem;
   background-color: #B3A88F;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+.document .center-img {
+  height: 100%;
+  text-align: center;
+}
+.document .center-img p {
+  font-size: 4rem;
+  margin-bottom: -30px;
+}
+.document .center-img img {
+  height: 100%;
+}
+.document .center-img .left-text {
+  margin-left: 20px;
+  margin-right: 0px;
+}
+.document .center-img .left-text i {
+  size: 2rem;
+}
+.document .center-img .right-text {
+  margin-left: 20px;
+  margin-right: 0px;
+}
+.document .center-img .right-text i {
+  size: 2rem;
 }
 .connect {
+  display: flex;
   width: 100%;
-  height: 60rem;
   background-color: #EEEEEE;
 }
 .connect img {

@@ -51,6 +51,7 @@
 .organize {
   width: 100%;
   background-color: @light-accent;
+  margin-bottom: -3px;
   h2 {
     font-size: 3.5rem;
     font-style: italic;
@@ -58,21 +59,50 @@
     padding-bottom: 70px;
     margin-left: 10%;
     margin-right: 10%;  
+    color: @feature-text;
   }
   img {
     width: 100%;
+    margin-bottom: 0px;
   }
 }
 
 .document {
+  display: flex;
   width: 100%;
-  height: 60rem;
+  height: 35rem;
   background-color: @dark-accent;
+  padding-bottom: 30px;
+  padding-top: 30px; 
+
+  .center-img {
+    height: 100%;
+    text-align: center;
+    p {
+      font-size: 4rem;
+      margin-bottom: -30px;
+    }
+    img {
+      height: 100%;
+    }
+
+    .left-text {
+  
+        .document-text(20px, 0px);
+      
+      
+    }
+
+    .right-text {
+      .document-text(20px, 0px);
+    }
+  }
 }
 
 .connect {
+  display: flex;
   width: 100%;
-  height: 60rem;
+  //height: 60rem;
   background-color: @light-accent;
   img {
     width: 50%;
