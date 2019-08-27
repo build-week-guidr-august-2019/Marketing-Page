@@ -275,20 +275,6 @@ footer {
 .document .center-img img {
   height: 100%;
 }
-.document .center-img .left-text {
-  margin-left: 20px;
-  margin-right: 0px;
-}
-.document .center-img .left-text i {
-  size: 2rem;
-}
-.document .center-img .right-text {
-  margin-left: 20px;
-  margin-right: 0px;
-}
-.document .center-img .right-text i {
-  size: 2rem;
-}
 .connect {
   display: flex;
   width: 100%;
