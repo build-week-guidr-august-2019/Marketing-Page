@@ -344,7 +344,8 @@ footer {
   width: 50%;
 }
 .connect .connect-text {
-  margin-top: 20px;
+  margin-top: 5%;
+  text-align: justify;
 }
 .connect .connect-text h3 {
   text-align: center;
@@ -358,8 +359,9 @@ footer {
   margin-bottom: 20px;
 }
 .connect .connect-text p {
-  padding: 0px 15%;
-  line-height: 1.75;
+  width: 70%;
+  line-height: 1.5;
+  margin-left: 15%;
 }
 .intro {
   display: flex;
