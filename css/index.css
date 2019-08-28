@@ -208,16 +208,16 @@ footer {
   text-align: center;
   font-family: 'Rokkitt', serif;
 }
-.intro {
+.intro-home {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.intro img {
+.intro-home img {
   width: 100%;
   height: 100%;
 }
-.intro .intro-window {
+.intro-home .intro-window {
   background: rgba(226, 222, 213, 0.5);
   position: absolute;
   width: 372px;
@@ -230,24 +230,31 @@ footer {
   margin-top: 20%;
 }
 @media (max-width: 500px) {
-  .intro .intro-window {
+  .intro-home .intro-window {
+    background: rgba(226, 222, 213, 0.85);
     width: 100%;
-    margin: 0px;
+    height: 24.5rem;
+    margin: 0;
   }
 }
-.intro .intro-window p {
+.intro-home .intro-window p {
   text-align: center;
   color: #073422;
   font-size: 2rem;
 }
-.intro .intro-window h1 {
+@media (max-width: 500px) {
+  .intro-home .intro-window p {
+    margin: 0 12%;
+  }
+}
+.intro-home .intro-window h1 {
   text-align: center;
   border-bottom: 0.25px solid #073422;
   width: 230px;
   margin-bottom: 15px;
   padding-bottom: 10px;
 }
-.intro .intro-window .header-button {
+.intro-home .intro-window .header-button {
   border-color: transparent;
   background-color: #EEEEEE;
   width: 40%;
