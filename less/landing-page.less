@@ -53,8 +53,9 @@
   background-color: @light-accent;
   margin-bottom: -3px;
   h2 {
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-style: italic;
+    text-align: center;
     padding-top: 70px;
     padding-bottom: 70px;
     margin-left: 10%;
@@ -73,22 +74,35 @@
   height: 35rem;
   background-color: @dark-accent;
   padding-bottom: 30px;
-  padding-top: 30px; 
+  padding-top: 20px; 
 
-  
+  .left-text{
+    .document-text(9%, 0px, right);
+    .fa-pencil-alt {
+      margin-top: 40px;
+    }
+  }
 
   .center-img {
     height: 100%;
     text-align: center;
     p {
-      font-size: 4rem;
+      font-size:3rem;
+      font-style: bold;
       margin-bottom: -30px;
+      color: @feature-text;
     }
     img {
       height: 100%;
     }
   }
 
+  .right-text {
+    .document-text(0px, 9%, left);
+    .fa-calendar-alt {
+      margin-top: 40px;
+    }
+  }
 
 }
 

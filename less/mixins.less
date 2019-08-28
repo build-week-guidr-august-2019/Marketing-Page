@@ -5,10 +5,24 @@
   }
 
 
-  .document-text(@lftmrg, @rtmrg) {
+  .document-text(@lftmrg, @rtmrg, @align) {
+    display: flex;
+    flex-direction: column;
     margin-left: @lftmrg;
     margin-right: @rtmrg;
+    margin-top: 7%;
+    
+    line-height: 2;
+
     i {
-      size: 2rem;
+      font-size: 3rem;
+      color: @guidr-green;
+      width: 100%;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    p {
+      text-align: @align;
     }
   }
