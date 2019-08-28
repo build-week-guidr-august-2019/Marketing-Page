@@ -236,3 +236,78 @@
         padding-bottom: 10px;
       }
 }
+
+.team{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #264D3E;
+  img {
+    width: 15%;
+    height: 15%;
+    margin-right: 25%;
+
+    @media @tablet{
+      margin-right: 350px;
+    }
+    @media @mobile{
+      margin-right: 350px;
+    }
+  }
+  
+  .team-box {
+    background: fade(@transp-window, 50%);
+    position: absolute;
+    width: 450px;
+    height: 336px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25%;
+    margin-top: 15%;
+
+    @media @tablet {
+      width: 50%;
+      height: 18%;
+      margin-top: 5%;
+      margin-left: 20%;
+      margin-right: 2%;
+      margin-bottom: 23%;
+      padding: 5%;
+      order: 0
+    }
+    
+    @media @mobile {
+      width: 50%;
+      height: 10%;
+      margin-top: 5%;
+      margin-left: 5%;
+      order: 0;
+    }
+  }
+
+    p {
+      text-align: center;
+      color: @feature-text;
+      font-size: 2rem;
+
+      @media @mobile {
+        font-size: 1rem;
+        margin-right: 0px;
+      }
+    }
+      
+    h1 {
+      text-align: center;
+      border-bottom: .25px solid #073422;
+      width: 230px;
+      margin-bottom: 15px;
+      padding-bottom: 10px;
+
+      @media @mobile {
+        font-size: 1.5rem;
+        margin-right: 0px;
+      }
+    }
+}
