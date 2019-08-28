@@ -206,6 +206,7 @@ footer {
   justify-content: center;
   align-items: center;
   text-align: center;
+  font-family: 'Rokkitt', serif;
 }
 .intro {
   display: flex;
@@ -301,9 +302,9 @@ footer {
   height: 100%;
   text-align: center;
 }
-.document .center-img p {
+.document .center-img h2 {
   font-size: 3rem;
-  font-style: bold;
+  font-weight: bold;
   margin-bottom: -30px;
   color: #073422;
 }
@@ -341,6 +342,24 @@ footer {
 }
 .connect img {
   width: 50%;
+}
+.connect .connect-text {
+  margin-top: 20px;
+}
+.connect .connect-text h3 {
+  text-align: center;
+  border-bottom: 0.25px solid #073422;
+  width: 230px;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.connect .connect-text p {
+  padding: 0px 15%;
+  line-height: 1.75;
 }
 .intro {
   display: flex;
