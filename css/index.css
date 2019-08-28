@@ -229,6 +229,12 @@ footer {
   margin-left: 30%;
   margin-top: 20%;
 }
+@media (max-width: 500px) {
+  .intro .intro-window {
+    width: 100%;
+    margin: 0px;
+  }
+}
 .intro .intro-window p {
   text-align: center;
   color: #073422;
@@ -276,6 +282,11 @@ footer {
   background-color: #B3A88F;
   padding-bottom: 20px;
   padding-top: 20px;
+}
+@media (max-width: 500px) {
+  .document {
+    flex-direction: column;
+  }
 }
 .document .left-text {
   display: flex;
@@ -339,6 +350,11 @@ footer {
   color: #073422;
   font-size: 1.5rem;
   background-color: #EEEEEE;
+}
+@media (max-width: 500px) {
+  .connect {
+    flex-direction: column;
+  }
 }
 .connect img {
   width: 50%;
