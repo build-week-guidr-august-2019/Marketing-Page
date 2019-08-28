@@ -46,7 +46,7 @@
         margin-top: 10px;
       }
     }
-  }
+} //intro
   
 .organize {
   width: 100%;
@@ -64,22 +64,20 @@
   }
   img {
     width: 100%;
-    margin-bottom: 0px;
   }
 }
 
 .document {
   display: flex;
   width: 100%;
-  height: 35rem;
   background-color: @dark-accent;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
   padding-top: 20px; 
 
   .left-text{
-    .document-text(9%, 0px, right);
+    .document-text(7%, 0px, right);
     .fa-pencil-alt {
-      margin-top: 40px;
+      margin-top: 30px;
     }
   }
 
@@ -94,13 +92,14 @@
     }
     img {
       height: 100%;
+      width:100%;
     }
   }
 
   .right-text {
-    .document-text(0px, 9%, left);
+    .document-text(0px, 7%, left);
     .fa-calendar-alt {
-      margin-top: 40px;
+      margin-top: 30px;
     }
   }
 
@@ -109,7 +108,8 @@
 .connect {
   display: flex;
   width: 100%;
-  //height: 60rem;
+  color: @feature-text;
+  font-size: 1.5rem;
   background-color: @light-accent;
   img {
     width: 50%;
