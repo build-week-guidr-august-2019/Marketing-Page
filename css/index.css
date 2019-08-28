@@ -342,6 +342,7 @@ footer {
 }
 .connect img {
   width: 50%;
+  height: 100%;
 }
 .connect .connect-text {
   margin-top: 5%;
