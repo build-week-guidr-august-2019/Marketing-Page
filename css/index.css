@@ -237,6 +237,12 @@ footer {
     margin: 0;
   }
 }
+@media (max-width: 800px) {
+  .intro-home .intro-window {
+    width: 310px;
+    height: 300px;
+  }
+}
 .intro-home .intro-window p {
   text-align: center;
   color: #073422;
@@ -245,6 +251,11 @@ footer {
 @media (max-width: 500px) {
   .intro-home .intro-window p {
     margin: 0 12%;
+  }
+}
+@media (max-width: 800px) {
+  .intro-home .intro-window p {
+    font-size: 1.75rem;
   }
 }
 .intro-home .intro-window h1 {
@@ -301,6 +312,9 @@ footer {
     padding-top: 10px;
     padding-bottom: 30px;
   }
+}
+.document .tablet-doc {
+  display: none;
 }
 .document .mobile-h2 {
   display: none;
@@ -438,6 +452,23 @@ footer {
 @media (max-width: 500px) and (max-width: 500px) {
   .document .right-text {
     margin-top: 0px;
+  }
+}
+@media (max-width: 800px) {
+  .document .doctext {
+    display: none;
+  }
+  .document .tablet-doc {
+    margin: 10% 5% 0px 0px;
+    display: flex;
+    flex-direction: column;
+  }
+  .document .tablet-doc .icon-text {
+    margin-bottom: 25px;
+  }
+  .document .tablet-doc .icon-text i {
+    font-size: 1.5rem;
+    color: #264D3E;
   }
 }
 .connect {
