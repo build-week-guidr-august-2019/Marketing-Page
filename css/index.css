@@ -280,6 +280,11 @@ footer {
   margin-right: 10%;
   color: #073422;
 }
+@media (max-width: 500px) {
+  .organize h2 {
+    font-size: 2.5rem;
+  }
+}
 .organize img {
   width: 100%;
 }
@@ -451,6 +456,11 @@ footer {
   width: 50%;
   height: 100%;
 }
+@media (max-width: 500px) {
+  .connect img {
+    width: 100%;
+  }
+}
 .connect .connect-text {
   margin-top: 5%;
   text-align: justify;
@@ -469,7 +479,15 @@ footer {
 .connect .connect-text p {
   width: 70%;
   line-height: 1.5;
-  margin-left: 15%;
+  margin: 0 auto;
+}
+@media (max-width: 500px) {
+  .connect .connect-text p {
+    width: 90%;
+    line-height: 1;
+    font-size: 1.25rem;
+    margin: 0 auto 30px auto;
+  }
 }
 .intro {
   display: flex;

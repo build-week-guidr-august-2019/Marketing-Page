@@ -8,6 +8,7 @@
     // @media @mobile {
     //   display: none;
     // }
+    //TODO idea: for the mobile verson or under...700px try making the background of intro window vv and using an element of LESS to just bring down the opacity on the image, making the text overlapping legible. That way absolute position isn't necessary and there will be little or no overspill
   }
     
   .intro-window {
@@ -73,6 +74,9 @@
     margin-left: 10%;
     margin-right: 10%;  
     color: @feature-text;
+    @media @mobile {
+      font-size: 2.5rem;
+    }
   }
 
   img {
@@ -158,11 +162,16 @@
   img {
     width: 50%;
     height: 100%;
+    @media @mobile {
+      width: 100%;
+      
+    }
   }
 
   .connect-text {
     margin-top: 5%;
     text-align: justify;
+    
     h3 {
       .head-text();
       font-size: 2.5rem;
@@ -174,7 +183,14 @@
     p {
       width: 70%;
       line-height: 1.5; 
-      margin-left: 15%;
+      margin: 0 auto;
+      @media @mobile {
+        width: 90%;
+        line-height: 1;
+        font-size: 1.25rem;
+        margin: 0 auto 30px auto;
+
+      }
     }
   }
 } //connect
