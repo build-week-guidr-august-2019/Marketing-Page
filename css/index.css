@@ -287,12 +287,27 @@ footer {
   display: flex;
   width: 100%;
   background-color: #B3A88F;
-  padding-bottom: 20px;
   padding-top: 20px;
 }
 @media (max-width: 500px) {
   .document {
     flex-direction: column;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+  }
+}
+.document .mobile-h2 {
+  display: none;
+}
+@media (max-width: 500px) {
+  .document .mobile-h2 {
+    display: contents;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: -30px;
+    color: #073422;
+    font-weight: normal;
   }
 }
 .document .left-text {
@@ -301,7 +316,12 @@ footer {
   margin-left: 7%;
   margin-right: 0px;
   margin-top: 7%;
-  line-height: 1.75;
+  line-height: 1.25;
+}
+@media (max-width: 500px) {
+  .document .left-text {
+    margin-top: 0px;
+  }
 }
 .document .left-text i {
   font-size: 3rem;
@@ -312,9 +332,36 @@ footer {
 }
 .document .left-text p {
   text-align: right;
+  font-size: 1.16rem;
 }
 .document .left-text .fa-pencil-alt {
   margin-top: 30px;
+}
+@media (max-width: 500px) {
+  .document .left-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 7%;
+    line-height: 1.25;
+  }
+  .document .left-text i {
+    font-size: 3rem;
+    color: #264D3E;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .document .left-text p {
+    text-align: center;
+    font-size: 1.16rem;
+  }
+}
+@media (max-width: 500px) and (max-width: 500px) {
+  .document .left-text {
+    margin-top: 0px;
+  }
 }
 .document .center-img {
   height: 100%;
@@ -326,6 +373,11 @@ footer {
   margin-bottom: -30px;
   color: #073422;
 }
+@media (max-width: 500px) {
+  .document .center-img h2 {
+    display: none;
+  }
+}
 .document .center-img img {
   height: 100%;
   width: 100%;
@@ -336,7 +388,12 @@ footer {
   margin-left: 0px;
   margin-right: 7%;
   margin-top: 7%;
-  line-height: 1.75;
+  line-height: 1.25;
+}
+@media (max-width: 500px) {
+  .document .right-text {
+    margin-top: 0px;
+  }
 }
 .document .right-text i {
   font-size: 3rem;
@@ -347,9 +404,36 @@ footer {
 }
 .document .right-text p {
   text-align: left;
+  font-size: 1.16rem;
 }
 .document .right-text .fa-calendar-alt {
   margin-top: 30px;
+}
+@media (max-width: 500px) {
+  .document .right-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 7%;
+    line-height: 1.25;
+  }
+  .document .right-text i {
+    font-size: 3rem;
+    color: #264D3E;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .document .right-text p {
+    text-align: center;
+    font-size: 1.16rem;
+  }
+}
+@media (max-width: 500px) and (max-width: 500px) {
+  .document .right-text {
+    margin-top: 0px;
+  }
 }
 .connect {
   display: flex;

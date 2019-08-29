@@ -84,11 +84,22 @@
   display: flex;
   width: 100%;
   background-color: @dark-accent;
-  padding-bottom: 20px;
   padding-top: 20px; 
 
   @media @mobile {
     flex-direction: column;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+  }
+
+  .mobile-h2 {
+    display: none;
+    @media @mobile {
+      display: contents;
+      .h2-text();
+      font-weight: normal;
+    }
   }
 
   .left-text{
@@ -96,6 +107,11 @@
     .fa-pencil-alt {
       margin-top: 30px;
     }
+
+    @media @mobile {
+      .document-text(10%, 10%, center);
+    }
+
   }
 
   .center-img {
@@ -106,6 +122,9 @@
       font-weight: bold;
       margin-bottom: -30px;
       color: @feature-text;
+      @media @mobile {
+        display: none;
+      }
     }
     img {
       height: 100%;
@@ -117,6 +136,10 @@
     .document-text(0px, 7%, left);
     .fa-calendar-alt {
       margin-top: 30px;
+    }
+    
+    @media @mobile {
+      .document-text(10%, 10%, center);
     }
   }
 } //document
