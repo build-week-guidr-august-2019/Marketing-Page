@@ -1,73 +1,242 @@
-.intro{
-
+.intro-home{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  img {
+    width: 100%;
+    height: 100%;
+    // @media @mobile {
+    //   display: none;
+    // }
+    //TODO idea: for the mobile verson or under...700px try making the background of intro window vv and using an element of LESS to just bring down the opacity on the image, making the text overlapping legible. That way absolute position isn't necessary and there will be little or no overspill
+  }
+    
+  .intro-window {
+    background: fade(@transp-window, 50%);
+    position: absolute;
+    width: 372px;
+    height: 336px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    img {
-      width: 100%;
-      height: 100%;
+    margin-left: 30%;
+    margin-top: 20%;
+
+    @media @tablet {
+      width: 310px;
+      height: 300px;
     }
-    
-    .intro-window {
-      background: fade(@transp-window, 50%);
-      position: absolute;
-      width: 372px;
-      height: 336px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      margin-left: 30%;
-      margin-top: 20%;
+
+    @media @mobile {
+      background: fade(@transp-window, 85%);
+      width: 100%;
+      height: 24.5rem;
+      margin: 0;
+      //position: static;
+    }
   
-      p {
-        text-align: center;
-        color: @feature-text;
-        font-size: 2rem;
+    p {
+      text-align: center;
+      color: @feature-text;
+      font-size: 2rem;
+      @media @mobile {
+        margin: 0 12%;
       }
+      // @media @tablet {
+      //   font-size: 1.75rem;
+      // }
+    }
         
-      h1 {
-        text-align: center;
-        border-bottom: .25px solid #073422;
-        width: 230px;
-        margin-bottom: 15px;
-        padding-bottom: 10px;
-      }
+    h1 {
+      .head-text();
+    }
       
-      .header-button {
-        border-color: transparent;
-        background-color: @light-accent;
-        width: 40%;
-        height: 2.5rem;
-        font-family: @main-font;
-        font-size: 1.5rem;
-        font-weight: bold;
-        color: @feature-text;
-        margin-top: 10px;
-      }
+    .header-button {
+      border-color: transparent;
+      background-color: @light-accent;
+      width: 40%;
+      height: 2.5rem;
+      font-family: @main-font;
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: @feature-text;
+      margin-top: 10px;
     }
   }
+} 
+//*INTRO
   
+//*ORGANIZE
 .organize {
   width: 100%;
-  height: 60rem;
   background-color: @light-accent;
+  margin-bottom: -3px;
+
+  h2 {
+    font-size: 3rem;
+    font-style: italic;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    margin-left: 10%;
+    margin-right: 10%;  
+    color: @feature-text;
+    @media @mobile {
+      font-size: 2.5rem;
+    }
+  }
+
   img {
     width: 100%;
   }
-}
+} 
+//*ORGANIZE
 
+
+//*DOCUMENT
 .document {
+  display: flex;
   width: 100%;
-  height: 60rem;
   background-color: @dark-accent;
-}
+  padding-top: 20px; 
 
+  .tablet-doc {
+    display: none;
+  }
+
+  .left-text{
+    .document-text(7%, 0px, right);
+    .fa-pencil-alt {
+      margin-top: 30px;
+    }
+
+    @media @mobile {
+      .document-text(10%, 10%, center);
+    }
+  }
+
+  .center-img {
+    height: 100%;
+    text-align: center;
+    h2 {
+      font-size:3rem;
+      font-weight: bold;
+      margin-bottom: -30px;
+      color: @feature-text;
+      @media @mobile {
+        display: none;
+      }
+    }
+    img {
+      height: 100%;
+      width:100%;
+    }
+  }
+
+  .right-text {
+    .document-text(0px, 7%, left);
+    .fa-calendar-alt {
+      margin-top: 30px;
+    }
+    
+    @media @mobile {
+      .document-text(10%, 10%, center);
+    }
+  }
+
+  @media @tablet {
+    .doctext{
+      display: none;
+    }
+
+    .tablet-doc{
+      margin: 10% 5% 0px 0px;
+      display: flex;
+      flex-direction: column;
+      .icon-text {
+        margin-bottom: 25px;
+        i {
+          font-size: 1.5rem;
+          color: @guidr-green;
+        } 
+      }
+    }
+  }
+
+  @media @mobile {
+    flex-direction: column;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    .doctext {
+      display: contents;
+    }
+    .tablet-doc {
+      display: none;
+    }
+  }
+  .mobile-h2 {
+    display: none;
+    @media @mobile {
+      display: contents;
+      .h2-text();
+      font-weight: normal;
+    }
+  }
+
+} 
+//*DOCUMENT
+
+//*CONNECT
 .connect {
+  display: flex;
   width: 100%;
-  height: 60rem;
+  color: @feature-text;
+  font-size: 1.5rem;
   background-color: @light-accent;
+
+  @media @mobile {
+    flex-direction: column;
+  }
+  
   img {
     width: 50%;
+    height: 100%;
+    @media @mobile {
+      width: 100%;
+      
+    }
   }
-}
+
+  .connect-text {
+    margin-top: 5%;
+    text-align: justify;
+    
+    h3 {
+      .head-text();
+      font-size: 2.5rem;
+      font-weight: bold;
+      margin: 0 auto;
+      margin-bottom: 20px;
+    }
+
+    p {
+      width: 70%;
+      line-height: 1.5; 
+      margin: 0 auto;
+
+      @media @tablet {
+        width: 85%;
+        line-height: 1;
+        text-align: justify;
+        font-size: 1.25rem;
+      }
+      @media @mobile {
+        width: 90%;
+        margin: 0 auto 30px auto;
+
+      }
+    }
+  }
+} 
