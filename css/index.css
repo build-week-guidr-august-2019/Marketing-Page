@@ -513,11 +513,17 @@ footer {
   line-height: 1.5;
   margin: 0 auto;
 }
+@media (max-width: 800px) {
+  .connect .connect-text p {
+    width: 85%;
+    line-height: 1;
+    text-align: justify;
+    font-size: 1.25rem;
+  }
+}
 @media (max-width: 500px) {
   .connect .connect-text p {
     width: 90%;
-    line-height: 1;
-    font-size: 1.25rem;
     margin: 0 auto 30px auto;
   }
 }
