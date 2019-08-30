@@ -4,6 +4,10 @@ Landing page for the Guidr web application. Includes introductory home page, Abo
 
 Built August 2019 - Aleesha Wood & Craig Paiva.
 
+## Landing Page Note: 
+
+- Middle 'Document' section is set up in html so there are 2 different HTML structures based on screen size. In CSS, displays are set to none for resolutions where mobile and tablet breakpoints take effect, and vice versa for larger screen sizes. This is the reason for the doubling of the 'Document' section.
+
 
 ### Other Components of This Project
 ​
