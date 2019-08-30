@@ -797,12 +797,12 @@ footer {
 }
 @media (max-width: 800px) {
   .team img {
-    margin-right: 350px;
+    margin-right: 330px;
   }
 }
 @media (max-width: 500px) {
   .team img {
-    margin-right: 350px;
+    margin-right: 330px;
   }
 }
 .team .team-box {
@@ -816,6 +816,7 @@ footer {
   align-items: center;
   margin-left: 25%;
   margin-top: 15%;
+  margin-bottom: 30%;
 }
 @media (max-width: 800px) {
   .team .team-box {
@@ -826,7 +827,6 @@ footer {
     margin-right: 2%;
     margin-bottom: 23%;
     padding: 5%;
-    order: 0;
   }
 }
 @media (max-width: 500px) {
@@ -835,7 +835,6 @@ footer {
     height: 10%;
     margin-top: 5%;
     margin-left: 5%;
-    order: 0;
   }
 }
 .team p {
