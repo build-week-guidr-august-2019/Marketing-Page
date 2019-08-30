@@ -299,6 +299,7 @@ footer {
   width: 100%;
   background-color: #B3A88F;
   padding-top: 20px;
+  padding-bottom: 10px;
 }
 .document .tablet-doc {
   display: none;
@@ -306,10 +307,11 @@ footer {
 .document .left-text {
   display: flex;
   flex-direction: column;
-  margin-left: 7%;
+  margin-left: 8%;
   margin-right: 0px;
   margin-top: 7%;
   line-height: 1.25;
+  width: 100%;
 }
 @media (max-width: 500px) {
   .document .left-text {
@@ -320,8 +322,8 @@ footer {
   font-size: 3rem;
   color: #264D3E;
   width: 100%;
-  text-align: center;
   margin-bottom: 20px;
+  text-align: center;
 }
 .document .left-text p {
   text-align: right;
@@ -338,13 +340,14 @@ footer {
     margin-right: 10%;
     margin-top: 7%;
     line-height: 1.25;
+    width: 100%;
   }
   .document .left-text i {
     font-size: 3rem;
     color: #264D3E;
     width: 100%;
-    text-align: center;
     margin-bottom: 20px;
+    text-align: center;
   }
   .document .left-text p {
     text-align: center;
@@ -382,6 +385,7 @@ footer {
   margin-right: 7%;
   margin-top: 7%;
   line-height: 1.25;
+  width: 100%;
 }
 @media (max-width: 500px) {
   .document .right-text {
@@ -392,8 +396,8 @@ footer {
   font-size: 3rem;
   color: #264D3E;
   width: 100%;
-  text-align: center;
   margin-bottom: 20px;
+  text-align: center;
 }
 .document .right-text p {
   text-align: left;
@@ -410,13 +414,14 @@ footer {
     margin-right: 10%;
     margin-top: 7%;
     line-height: 1.25;
+    width: 100%;
   }
   .document .right-text i {
     font-size: 3rem;
     color: #264D3E;
     width: 100%;
-    text-align: center;
     margin-bottom: 20px;
+    text-align: center;
   }
   .document .right-text p {
     text-align: center;
