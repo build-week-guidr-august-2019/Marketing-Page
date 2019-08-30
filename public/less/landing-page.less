@@ -156,7 +156,7 @@
     }
   }
 
-  @media @tablet {
+  @media(max-width: 900px) {
     .doctext{
       display: none;
     }
@@ -174,7 +174,6 @@
       }
     }
   }
-
   @media @mobile {
     flex-direction: column;
     text-align: center;
@@ -234,14 +233,17 @@
 
     p {
       width: 70%;
-      line-height: 1.5; 
+      line-height: 1; 
       margin: 0 auto;
-
       @media @tablet {
         width: 85%;
         line-height: 1;
         text-align: justify;
         font-size: 1.25rem;
+      }
+
+      @media(max-width: 689px) {
+        font-size: 1.05rem;
       }
       @media @mobile {
         width: 90%;

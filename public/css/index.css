@@ -453,7 +453,7 @@ footer {
     margin-top: 0px;
   }
 }
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   .document .doctext {
     display: none;
   }
@@ -535,7 +535,7 @@ footer {
 }
 .connect .connect-text p {
   width: 70%;
-  line-height: 1.5;
+  line-height: 1;
   margin: 0 auto;
 }
 @media (max-width: 800px) {
@@ -544,6 +544,11 @@ footer {
     line-height: 1;
     text-align: justify;
     font-size: 1.25rem;
+  }
+}
+@media (max-width: 689px) {
+  .connect .connect-text p {
+    font-size: 1.05rem;
   }
 }
 @media (max-width: 500px) {
