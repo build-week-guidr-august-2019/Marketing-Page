@@ -17,6 +17,7 @@ Built August 2019 - Aleesha Wood & Craig Paiva.
 ​
 ### Team Members
 ​
+
 |     Role       |      Name / LinkedIn     |     Twitter        |      Github    |
 |----------------|--------------------------|--------------------|----------------|
 |iOS Unit 1 Dev  |[Jessie Griffin](https://www.linkedin.com/in/jessie-ann-griffin/)||[ThreeDayStory](https://github.com/ThreeDayStory)|
