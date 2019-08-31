@@ -8,7 +8,6 @@ Built August 2019 - Aleesha Wood & Craig Paiva.
 
 - Middle 'Document' section is set up in html so there are 2 different HTML structures based on screen size. In CSS, displays are set to none for resolutions where mobile and tablet breakpoints take effect, and vice versa for larger screen sizes. This is the reason for the doubling of the 'Document' section.
 
-
 ### Other Components of This Project
 ​
 - [iOS App](https://github.com/build-week-guidr-august-2019/Mobile-App)
@@ -18,12 +17,13 @@ Built August 2019 - Aleesha Wood & Craig Paiva.
 ​
 ### Team Members
 ​
-|Role|Name / LinkedIn|Twitter|Github|
-|---|---|---|---|
-|iOS Unit 1 Dev|[Jessie Griffin](https://www.linkedin.com/in/jessie-ann-griffin/)||[ThreeDayStory](https://github.com/ThreeDayStory)|
-|iOS Unit 1 Dev|Ife Banire||[IfeBan](https://github.com/IfeBan)|
-|iOS Unit 2 Dev|[Stephanie Bowles](https://www.linkedin.com/in/stephanie-bowles-a5376261/)||[sbowl001](https://github.com/sbowl001)|
-|Web UI Dev|[Aleesha Wood](https://www.linkedin.com/in/aleesha-wood/)|[@aleeshamw](https://twitter.com/aleeshamw)|[SPECTRAT](https://github.com/SPECTRAT)|
+
+|     Role       |      Name / LinkedIn     |     Twitter        |      Github    |
+|----------------|--------------------------|--------------------|----------------|
+|iOS Unit 1 Dev  |[Jessie Griffin](https://www.linkedin.com/in/jessie-ann-griffin/)||[ThreeDayStory](https://github.com/ThreeDayStory)|
+|iOS Unit 1 Dev  |Ife Banire||[IfeBan](https://github.com/IfeBan)|
+|  iOS Unit 2 Dev|[Stephanie Bowles](https://www.linkedin.com/in/stephanie-bowles-a5376261/)||[sbowl001](https://github.com/sbowl001)|
+|     Web UI Dev |[Aleesha Wood](https://www.linkedin.com/in/aleesha-wood/)|[@aleeshamw](https://twitter.com/aleeshamw)|[SPECTRAT](https://github.com/SPECTRAT)|
 |Web UI Dev|Craig Paiva||[craiglpaiva](https://github.com/craiglpaiva)|
 |Frontend Dev|Zach Taylor||[zbtaylor](https://github.com/zbtaylor)|
 |Frontend Dev|Colby Howell||[colbyhowell](https://github.com/colbyhowell)|

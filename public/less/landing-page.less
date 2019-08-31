@@ -2,15 +2,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
+  overflow: hidden;
   img {
     width: 100%;
     height: 100%;
-    @media @headbreak {
-      display: none;
-    }
-    //TODO idea: for the mobile version or under...600px try making the background of intro window vv and using an element of LESS to just bring down the opacity on the image, making the text overlapping legible. That way absolute position isn't necessary and there will be little or no over-spill
   }
-    
+
   .intro-window {
     background: fade(@transp-window, 50%);
     position: absolute;
@@ -22,18 +20,8 @@
     align-items: center;
     margin-left: 30%;
     margin-top: 20%;
-    @media(max-width: 770px) {
+    @media(max-width: 927px) {
       margin-left: 25%;
-    }
-
-    @media @headbreak {
-      position: static;
-      width: 100%;
-      height: 100%;
-      margin-left: 0px;
-      margin-top: 0px;
-      background-image: url(/imgs/landing_bridge.jpg);
-      background-size: cover;
     }
 
     @media @tablet {
@@ -41,26 +29,34 @@
       height: 300px;
     }
 
-    @media @mobile {
-      background: fade(@transp-window, 85%);
+    @media @headbreak {
       width: 100%;
-      height: 24.5rem;
+      height: 100%;
       margin: 0;
-      //position: static;
+    }
+
+    @media @mobile {
+      width: 100%;
+      height: 100%;
+      margin-top: 0px;
+      margin-bottom: 0px;
     }
   
     p {
       text-align: center;
       color: @feature-text;
       font-size: 2rem;
+
+      @media @tablet {
+        font-size: 1.75rem;
+      }
+      
+      
       @media @mobile {
         margin: 0 12%;
       }
-      // @media @tablet {
-      //   font-size: 1.75rem;
-      // }
     }
-        
+    
     h1 {
       .head-text();
     }
@@ -76,7 +72,7 @@
       color: @feature-text;
       margin-top: 10px;
     }
-  }
+  } //intro-window
 } 
 //*INTRO
   
@@ -96,7 +92,8 @@
     margin-right: 10%;  
     color: @feature-text;
     @media @mobile {
-      font-size: 2.5rem;
+      font-size: 2rem;
+      padding: 40px 0;
     }
   }
 
@@ -159,7 +156,7 @@
     }
   }
 
-  @media @tablet {
+  @media(max-width: 900px) {
     .doctext{
       display: none;
     }
@@ -177,7 +174,6 @@
       }
     }
   }
-
   @media @mobile {
     flex-direction: column;
     text-align: center;
@@ -237,14 +233,17 @@
 
     p {
       width: 70%;
-      line-height: 1.5; 
+      line-height: 1; 
       margin: 0 auto;
-
       @media @tablet {
         width: 85%;
         line-height: 1;
         text-align: justify;
         font-size: 1.25rem;
+      }
+
+      @media(max-width: 689px) {
+        font-size: 1.05rem;
       }
       @media @mobile {
         width: 90%;
