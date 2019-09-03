@@ -29,3 +29,5 @@ Built August 2019 - Aleesha Wood & Craig Paiva.
 |Frontend Dev|Colby Howell||[colbyhowell](https://github.com/colbyhowell)|
 |UX Design|Taketa Joi Stewart||n/a|
 |Project Lead|[Michael Redig](https://www.linkedin.com/in/michael-redig/)|[@mredig](https://twitter.com/mredig)|[mredig](https://github.com/mredig)|
+
+Deployed via [Netlify](https://pensive-borg-034da5.netlify.com/index.html)
