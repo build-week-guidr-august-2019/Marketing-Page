@@ -23,7 +23,7 @@ Built August 2019 - Aleesha Wood & Craig Paiva.
 |iOS Unit 1 Dev  |[Jessie Griffin](https://www.linkedin.com/in/jessie-ann-griffin/)||[ThreeDayStory](https://github.com/ThreeDayStory)|
 |iOS Unit 1 Dev  |Ife Banire||[IfeBan](https://github.com/IfeBan)|
 |  iOS Unit 2 Dev|[Stephanie Bowles](https://www.linkedin.com/in/stephanie-bowles-a5376261/)||[sbowl001](https://github.com/sbowl001)|
-|     Web UI Dev |[Aleesha Wood](https://www.linkedin.com/in/aleesha-wood/)|[@aleeshamw](https://twitter.com/aleeshamw)|[SPECTRAT](https://github.com/SPECTRAT)|
+|     Web UI Dev |[Aleesha Wood](https://www.linkedin.com/in/aleesha-wood/)|[@aleeshamw](https://twitter.com/aleeshamw)|[aleeshaw](https://github.com/SPECTRAT)|
 |Web UI Dev|Craig Paiva||[craiglpaiva](https://github.com/craiglpaiva)|
 |Frontend Dev|Zach Taylor||[zbtaylor](https://github.com/zbtaylor)|
 |Frontend Dev|Colby Howell||[colbyhowell](https://github.com/colbyhowell)|
